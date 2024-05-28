@@ -1,6 +1,11 @@
-* {
+@font-face {
+  font-family: poppins;
+  src: url(/img/poppins.regular.ttf);
+}
+body {
   padding: 0px;
   border: 0px;
+  font-family: poppins;
 }
 .bttn:hover {
   outline: none;
@@ -86,7 +91,6 @@
   font-size: 35px;
   font-weight: 700;
   text-align: left;
-  max-width: 110px;
 }
 .sec-image {
   width: 100%;
@@ -271,4 +275,97 @@
 .socialmedia-link {
   height: 17px;
   margin-right: 3%;
+}
+.testimonial-blog {
+  background: #232536;
+  color: white;
+  padding: 5%;
+  margin: 2% 0%;
+}
+.testimonial-blog-text {
+  padding: 5% 10%;
+}
+.testimonial-title {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 3px;
+  height: 20px;
+}
+.testimonial-subtitle {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+.testimonial-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.testimonial-profile {
+  padding: 0% 7% 4% 5%;
+}
+.testimonial-sub-text {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 20%;
+}
+.arrow-left {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: white;
+}
+.arrow-right {
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  background: #ff5959;
+}
+.blog-first-showcase {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0%;
+}
+.blog-fisrt-showacase-image {
+  padding: 0%;
+}
+.blog-first-showcase-text-title {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: left;
+}
+.blog-profile {
+  display: block;
+  height: 50px;
+}
+.blog-first-showcase-sub-text {
+  padding: 0% 7%;
+}
+.first-para-blog {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-align: left;
+  margin: 2% 0%;
+}
+.first-blog-showcase-list {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
 }
