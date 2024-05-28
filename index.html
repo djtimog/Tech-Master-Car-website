@@ -10,6 +10,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -93,7 +97,21 @@
         </p>
         <a class="sub-btn bttn" href="#subscribe">
           Subscribe
-          <img src="img/vector.png" alt="vect" />
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.8357 9.16798L10.335 12.6687M21.1732 1.03586C21.2839 0.997649 21.4031 0.991361 21.5173 1.01771C21.6314 1.04407 21.7358 1.102 21.8186 1.18488C21.9013 1.26777 21.9591 1.37227 21.9853 1.48644C22.0115 1.60061 22.005 1.71985 21.9666 1.83052L15.0539 21.5861C15.0126 21.7042 14.9367 21.8072 14.8361 21.8816C14.7355 21.956 14.6149 21.9985 14.4898 22.0035C14.3648 22.0086 14.2412 21.9759 14.1349 21.9098C14.0287 21.8437 13.9448 21.7472 13.894 21.6328L10.1378 13.1821C10.075 13.0413 9.9624 12.9286 9.82156 12.8659L1.37087 9.10847C1.25686 9.05757 1.16073 8.97364 1.09491 8.86754C1.02908 8.76145 0.996579 8.63805 1.0016 8.51329C1.00663 8.38853 1.04895 8.26815 1.1231 8.16769C1.19724 8.06723 1.29981 7.99131 1.41755 7.94974L21.1732 1.03586Z"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
         </a>
       </div>
     </div>
@@ -137,12 +155,12 @@
             Trending Blogs
             <p class="fs-5 see-all">
               <a href="blog.html" style="text-decoration: none; color: black"
-                >see all</a
+                >See All</a
               >
             </p>
           </div>
           <div class="trending-blog">
-            <div class="mb-3 trending-blog-body">
+            <div class="mb-3 trending-blog-body hover-link">
               <div class="card-body">
                 <p class="card-title">
                   <small>
@@ -158,10 +176,7 @@
                 </p>
               </div>
             </div>
-            <div
-              class="mb-3 trending-blog-body"
-              style="background-color: #ff5959; color: white"
-            >
+            <div class="mb-3 trending-blog-body hover-link-active">
               <div class="card-body">
                 <p class="card-title">
                   <small>
@@ -178,7 +193,7 @@
                 </p>
               </div>
             </div>
-            <div class="mb-3 trending-blog-body">
+            <div class="mb-3 trending-blog-body hover-link">
               <div class="card-body">
                 <p class="card-title">
                   <small>
@@ -194,7 +209,7 @@
                 </p>
               </div>
             </div>
-            <div class="mb-3 trending-blog-body">
+            <div class="mb-3 trending-blog-body hover-link">
               <div class="card-body">
                 <p class="card-title">
                   <small>
@@ -220,23 +235,26 @@
     <div class="third-blog">
       <div class="third-blog-title blog-trending-title">
         New Technology
-        <sup><img src="img/dash.png" alt="" style="max-width: 5%" /></sup>
+        <sup
+          ><svg
+            width="40"
+            height="2"
+            viewBox="0 0 40 2"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line y1="1" x2="40" y2="1" stroke="#232536" stroke-width="2" />
+          </svg>
+        </sup>
         <p class="fs-5 see-all">
           <a href="blog.html" style="text-decoration: none; color: black"
-            >see all</a
+            >See All</a
           >
         </p>
       </div>
       <div class="row">
         <div class="col-lg-3 col-sm-6">
-          <div
-            class="card"
-            style="
-              border-radius: 13px;
-              background-color: #f4f0f8;
-              margin-bottom: 20px;
-            "
-          >
+          <div class="card new-tech">
             <div class="tech-img-container">
               <img
                 src="img/first-blog-image.jpg"
@@ -257,14 +275,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <div
-            class="card"
-            style="
-              border-radius: 13px;
-              background-color: #f4f0f8;
-              margin-bottom: 20px;
-            "
-          >
+          <div class="card new-tech">
             <div class="tech-img-container">
               <img
                 src="img/second-blog-image.jpg"
@@ -283,14 +294,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <div
-            class="card"
-            style="
-              border-radius: 13px;
-              background-color: #f4f0f8;
-              margin-bottom: 20px;
-            "
-          >
+          <div class="card new-tech">
             <div class="tech-img-container">
               <img
                 src="img/third-blog-image.jpg"
@@ -311,14 +315,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <div
-            class="card"
-            style="
-              border-radius: 13px;
-              background-color: #f4f0f8;
-              margin-bottom: 20px;
-            "
-          >
+          <div class="card new-tech">
             <div class="tech-img-container">
               <img
                 src="img/fourth-blog-image.jpg"
@@ -346,7 +343,21 @@
     <!-- fourth showcase BLOG -->
     <div class="catergory-blog">
       <div class="blog-trending-title">
-        All Category <img src="img/dash.png" alt="..." style="max-width: 5%" />
+        All Category
+        <svg
+          width="44"
+          height="4"
+          viewBox="0 0 44 4"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 2H42"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+        </svg>
       </div>
       <div class="row text-center catergory-list-items">
         <div class="col-xs-12 col-sm-6 col-lg-3">
@@ -422,12 +433,23 @@
         </div>
       </div>
       <div class="col-md-1 col-xs-12">
-        <img
-          src="img/vertical-line.png"
-          alt="..."
+        <svg
+          width="2"
+          height="310"
+          viewBox="0 0 2 310"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
           class="d-none d-md-block d-xs-none"
-          style="width: 20px; height: 100%"
-        />
+        >
+          <line
+            opacity="0.4"
+            x1="1.19873"
+            y1="2.37096e-08"
+            x2="1.19872"
+            y2="310"
+            stroke="#FBF6EA"
+          />
+        </svg>
         <hr
           class="d-block d-md-none"
           style="width: 100%; margin-bottom: 10%; height: 2px"
@@ -463,13 +485,35 @@
           </div>
           <div
             class="arrows"
-            style="position: absolute; right: 12%; display: inline;"
+            style="position: absolute; right: 12%; display: inline"
           >
             <button class="arrow-left">
-              <img src="img/left-arrow.png" alt="..." style="width: 20px" />
+              <svg
+                width="23"
+                height="16"
+                viewBox="0 0 23 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.6045 9C22.1568 9 22.6045 8.55228 22.6045 8C22.6045 7.44772 22.1568 7 21.6045 7L21.6045 9ZM0.768353 7.29289C0.377829 7.68342 0.377829 8.31658 0.768352 8.7071L7.13231 15.0711C7.52284 15.4616 8.156 15.4616 8.54653 15.0711C8.93705 14.6805 8.93705 14.0474 8.54653 13.6569L2.88967 8L8.54653 2.34314C8.93705 1.95262 8.93705 1.31946 8.54653 0.928931C8.156 0.538407 7.52284 0.538406 7.13232 0.928931L0.768353 7.29289ZM21.6045 7L1.47546 7L1.47546 9L21.6045 9L21.6045 7Z"
+                  fill="#232536"
+                />
+              </svg>
             </button>
             <button class="arrow-right">
-              <img src="img/right-arrow.png" alt="..." style="width: 25px" />
+              <svg
+                width="28"
+                height="16"
+                viewBox="0 0 28 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM27.7071 8.70711C28.0976 8.31658 28.0976 7.68342 27.7071 7.29289L21.3431 0.928932C20.9526 0.538408 20.3195 0.538408 19.9289 0.928932C19.5384 1.31946 19.5384 1.95262 19.9289 2.34315L25.5858 8L19.9289 13.6569C19.5384 14.0474 19.5384 14.6805 19.9289 15.0711C20.3195 15.4616 20.9526 15.4616 21.3431 15.0711L27.7071 8.70711ZM1 9H27V7H1V9Z"
+                  fill="#232536"
+                />
+              </svg>
             </button>
           </div>
         </div>
@@ -481,23 +525,26 @@
     <div class="third-blog">
       <div class="third-blog-title blog-trending-title">
         New Technology
-        <sup><img src="img/dash.png" alt="" style="max-width: 5%" /></sup>
+        <sup
+          ><svg
+            width="40"
+            height="2"
+            viewBox="0 0 40 2"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line y1="1" x2="40" y2="1" stroke="#232536" stroke-width="2" />
+          </svg>
+        </sup>
         <p class="fs-5 see-all">
           <a href="blog.html" style="text-decoration: none; color: black"
-            >see all</a
+            >See All</a
           >
         </p>
       </div>
       <div class="row">
         <div class="col-lg-3 col-sm-6">
-          <div
-            class="card"
-            style="
-              border-radius: 13px;
-              background-color: #f4f0f8;
-              margin-bottom: 20px;
-            "
-          >
+          <div class="card new-tech">
             <div class="tech-img-container">
               <img
                 src="img/fifth-image.jpg"
@@ -518,14 +565,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <div
-            class="card"
-            style="
-              border-radius: 13px;
-              background-color: #f4f0f8;
-              margin-bottom: 20px;
-            "
-          >
+          <div class="card new-tech">
             <div class="tech-img-container">
               <img
                 src="img/sixth-image.jpg"
@@ -544,14 +584,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <div
-            class="card"
-            style="
-              border-radius: 13px;
-              background-color: #f4f0f8;
-              margin-bottom: 20px;
-            "
-          >
+          <div class="card new-tech">
             <div class="tech-img-container">
               <img
                 src="img/seventh-image.jpg"
@@ -572,14 +605,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <div
-            class="card"
-            style="
-              border-radius: 13px;
-              background-color: #f4f0f8;
-              margin-bottom: 20px;
-            "
-          >
+          <div class="card new-tech">
             <div class="tech-img-container">
               <img
                 src="img/eighth-image.jpg"
@@ -640,29 +666,43 @@
               id="navbarCollapse"
             >
               <ul class="navbar-nav">
-                <li class="nav-item" >
+                <li class="nav-item">
                   <a
                     href="index.html"
                     class="nav-link active"
-                    style="color: rgb(156, 150, 150)"
+                    style="color: rgb(156, 150, 150); text-align: center"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a href="#blog" class="nav-link" style="color: white"
+                  <a
+                    href="#blog"
+                    class="nav-link"
+                    style="color: white; text-align: center"
                     >Blogs</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link" style="color: white">About Us</a>
+                  <a
+                    href="#"
+                    class="nav-link"
+                    style="color: white; text-align: center"
+                    >About Us</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link" style="color: white"
+                  <a
+                    href="#"
+                    class="nav-link"
+                    style="color: white; text-align: center"
                     >Contact Us</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link" style="color: white"
+                  <a
+                    href="#"
+                    class="nav-link"
+                    style="color: white; text-align: center"
                     >Privacy Policies</a
                   >
                 </li>
@@ -686,9 +726,23 @@
               />
             </div>
             <div class="col-xs-12 col-md-4">
-              <button type="submit" class="via-sub-btn bttn" href="">
+              <button type="submit" class="via-sub-btn bttn">
                 Subscribe
-                <img src="img/vector.png" alt="vect" />
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.8357 9.16798L10.335 12.6687M21.1732 1.03586C21.2839 0.997649 21.4031 0.991361 21.5173 1.01771C21.6314 1.04407 21.7358 1.102 21.8186 1.18488C21.9013 1.26777 21.9591 1.37227 21.9853 1.48644C22.0115 1.60061 22.005 1.71985 21.9666 1.83052L15.0539 21.5861C15.0126 21.7042 14.9367 21.8072 14.8361 21.8816C14.7355 21.956 14.6149 21.9985 14.4898 22.0035C14.3648 22.0086 14.2412 21.9759 14.1349 21.9098C14.0287 21.8437 13.9448 21.7472 13.894 21.6328L10.1378 13.1821C10.075 13.0413 9.9624 12.9286 9.82156 12.8659L1.37087 9.10847C1.25686 9.05757 1.16073 8.97364 1.09491 8.86754C1.02908 8.76145 0.996579 8.63805 1.0016 8.51329C1.00663 8.38853 1.04895 8.26815 1.1231 8.16769C1.19724 8.06723 1.29981 7.99131 1.41755 7.94974L21.1732 1.03586Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </form>
@@ -700,31 +754,10 @@
           example@femail.com 001 21345 442
         </p>
         <div class="socialmedia-link-container">
-          <a href=""
-            ><img
-              src="img/facebook-icon.png"
-              alt="..."
-              class="socialmedia-link img-responsive"
-          /></a>
-          <a href=""
-            ><img
-              src="img/twitter-icon.png"
-              alt="..."
-              class="socialmedia-link img-responsive"
-          /></a>
-          <a href=""
-            ><img
-              src="img/insta-icon.png"
-              alt="..."
-              class="socialmedia-link img-responsive"
-          /></a>
-          <a href=""
-            ><img
-              src="img/linkedin-icon.png"
-              alt="..."
-              class="socialmedia-link img-responsive"
-              style="margin-right: 0%"
-          /></a>
+          <a href=""><i class="bi bi-facebook socialmedia-link"></i></a>
+          <a href=""><i class="bi bi-twitter socialmedia-link"></i></a>
+          <a href=""><i class="bi bi-instagram socialmedia-link"></i></a>
+          <a href=""><i class="bi bi-linkedin socialmedia-link"></i></a>
         </div>
       </div>
     </div>

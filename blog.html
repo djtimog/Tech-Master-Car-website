@@ -10,6 +10,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -83,7 +87,7 @@
           src="img/last-image.jpg"
           alt="..."
           class="img-responsive"
-          style="width: 100%;"
+          style="width: 100%"
         />
       </div>
       <div class="blog-first-showcase-text">
@@ -93,8 +97,10 @@
         <div class="blog-profile">
           <img src="img/profile-image.jpg" class="profile-img" alt="" />
           <div class="profile-name">
-            Dansteen 
-            <small class="text-muted">Jan 10, 2024 ∙ 3 min read</small>
+            <p>
+              Dansteen
+              <small class="text-muted">Jan 10, 2024 ∙ 3 min read</small>
+            </p>
           </div>
         </div>
         <div class="blog-first-showcase-sub-text">
@@ -166,11 +172,20 @@
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
           <div class="catergory-list">
-            <img
-              src="img/catergory-second-image.jpg"
-              alt="..."
-              class="center-block img-responsive catergory-list-image"
-            />
+            <svg
+          width="44"
+          height="4"
+          viewBox="0 0 44 4"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 2H42"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+        </svg>
             <p class="lead catergory-list-title">Maintenance Tips</p>
             <p class="catergory-list-text">
               Lorem ipsum dolor sit amet <br />consectetur. Urna dignissim ac
@@ -250,7 +265,7 @@
                   <a
                     href="index.html"
                     class="nav-link active"
-                    style="color: white"
+                    style="color: white;text-align:center;"
                     >Home</a
                   >
                 </li>
@@ -258,20 +273,20 @@
                   <a
                     href="#blog"
                     class="nav-link"
-                    style="color: rgb(156, 150, 150)"
+                    style="color: rgb(156, 150, 150);text-align:center;"
                     >Blogs</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link" style="color: white">About Us</a>
+                  <a href="#" class="nav-link" style="color: white ; text-align:center;">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link" style="color: white"
+                  <a href="#" class="nav-link" style="color: white;text-align:center;"
                     >Contact Us</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link" style="color: white"
+                  <a href="#" class="nav-link" style="color: white ;text-align:center;"
                     >Privacy Policies</a
                   >
                 </li>
@@ -297,7 +312,9 @@
             <div class="col-xs-12 col-md-4">
               <button type="submit" class="via-sub-btn bttn" href="">
                 Subscribe
-                <img src="img/vector.png" alt="vect" />
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.8357 9.16798L10.335 12.6687M21.1732 1.03586C21.2839 0.997649 21.4031 0.991361 21.5173 1.01771C21.6314 1.04407 21.7358 1.102 21.8186 1.18488C21.9013 1.26777 21.9591 1.37227 21.9853 1.48644C22.0115 1.60061 22.005 1.71985 21.9666 1.83052L15.0539 21.5861C15.0126 21.7042 14.9367 21.8072 14.8361 21.8816C14.7355 21.956 14.6149 21.9985 14.4898 22.0035C14.3648 22.0086 14.2412 21.9759 14.1349 21.9098C14.0287 21.8437 13.9448 21.7472 13.894 21.6328L10.1378 13.1821C10.075 13.0413 9.9624 12.9286 9.82156 12.8659L1.37087 9.10847C1.25686 9.05757 1.16073 8.97364 1.09491 8.86754C1.02908 8.76145 0.996579 8.63805 1.0016 8.51329C1.00663 8.38853 1.04895 8.26815 1.1231 8.16769C1.19724 8.06723 1.29981 7.99131 1.41755 7.94974L21.1732 1.03586Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>  
               </button>
             </div>
           </form>
@@ -309,31 +326,10 @@
           example@femail.com 001 21345 442
         </p>
         <div class="socialmedia-link-container">
-          <a href=""
-            ><img
-              src="img/facebook-icon.png"
-              alt="..."
-              class="socialmedia-link img-responsive"
-          /></a>
-          <a href=""
-            ><img
-              src="img/twitter-icon.png"
-              alt="..."
-              class="socialmedia-link img-responsive"
-          /></a>
-          <a href=""
-            ><img
-              src="img/insta-icon.png"
-              alt="..."
-              class="socialmedia-link img-responsive"
-          /></a>
-          <a href=""
-            ><img
-              src="img/linkedin-icon.png"
-              alt="..."
-              class="socialmedia-link img-responsive"
-              style="margin-right: 0%"
-          /></a>
+          <a href=""><i class="bi bi-facebook socialmedia-link"></i></a>
+          <a href=""><i class="bi bi-twitter socialmedia-link"></i></a>
+          <a href=""><i class="bi bi-instagram socialmedia-link"></i></a>
+          <a href=""><i class="bi bi-linkedin socialmedia-link"></i></a>
         </div>
       </div>
     </div>

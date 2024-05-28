@@ -134,6 +134,17 @@ body {
 .trending-blog-body {
   padding: 3%;
   border: none;
+  cursor: pointer;
+}
+.hover-link-active {
+  background-color: #ff5959;
+  color: white;
+}
+.hover-link:hover {
+  background-color: #f4f0f8;
+}
+.hover-link-active:hover {
+  background-color: #fa8989;
 }
 .see-all {
   position: absolute;
@@ -147,6 +158,13 @@ body {
 .third-blog-title {
   font-weight: 500;
 }
+.new-tech {
+  border-radius: 13px;
+  background-color: #f4f0f8;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
 .tech-img {
   width: 100%;
   border-radius: 10px;
@@ -186,6 +204,7 @@ body {
   border-radius: 10px;
   padding: 2%;
   margin: 5%;
+  cursor: pointer;
 }
 .catergory-list-image {
   width: 90px;
@@ -208,6 +227,10 @@ body {
   font-weight: 400;
   line-height: 20px;
   text-align: center;
+}
+.new-tech:hover,
+.catergory-list:hover {
+  background-color: #ddd3e7;
 }
 
 /* footer */
@@ -325,11 +348,18 @@ body {
   border-radius: 30px;
   background-color: white;
 }
+.arrow-left:hover{
+  background-color: #ddd3e7;
+}
 .arrow-right {
   width: 60px;
   height: 60px;
   border-radius: 35px;
   background: #ff5959;
+  margin-left: 10px;
+}
+.arrow-right:hover{
+  background-color: #f76666;
 }
 .blog-first-showcase {
   padding-left: 5%;
